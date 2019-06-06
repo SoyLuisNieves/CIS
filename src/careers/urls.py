@@ -6,6 +6,5 @@ urlpatterns = [
     # url(r'^$', 'CIS.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^careers/', include('careers.urls')),
+    url(r'^', 'careers.views.home', name='home'),
 ]
